@@ -254,13 +254,13 @@ if BF then
 	
 		ShowName.Name = "MyName"
 		ShowName.Parent = Main
-		ShowName.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		ShowName.BackgroundTransparency = 1.000
 		ShowName.Position = UDim2.new(0, 9, 0.92, 0)
 		ShowName.Size = UDim2.new(0, 160, 0, 30)
 		ShowName.Font = Enum.Font.SourceSansSemibold
 		ShowName.RichText =  true
 		ShowName.Text = MyNameIs
+		ShowName.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 
 		local StringSize
 		if #tostring(MyNameIs) > 13 then
