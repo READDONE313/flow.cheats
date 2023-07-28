@@ -261,6 +261,7 @@ if BF then
 		ShowName.RichText =  true
 		ShowName.Text = MyNameIs
 		ShowName.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		ShowName.TextColor3 = Color3.fromRGB(255, 255, 255)
 
 		local StringSize
 		if #tostring(MyNameIs) > 13 then
