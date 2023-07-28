@@ -254,22 +254,14 @@ if BF then
 	
 		ShowName.Name = "MyName"
 		ShowName.Parent = Main
-		ShowName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		ShowName.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 		ShowName.BackgroundTransparency = 1.000
 		ShowName.Position = UDim2.new(0, 9, 0.92, 0)
 		ShowName.Size = UDim2.new(0, 160, 0, 30)
 		ShowName.Font = Enum.Font.SourceSansSemibold
 		ShowName.RichText =  true
 		ShowName.Text = MyNameIs
-		ShowName.TextColor3 = Color3.fromRGB(255, 255, 255)
-		spawn(function()
-			while wait() do 
-				for i = 1,255 do
-					ShowName.TextColor3 = Color3.fromHSV(i/255, 1, 1)
-					wait()
-				end
-			end
-		end)
+
 		local StringSize
 		if #tostring(MyNameIs) > 13 then
 			StringSize = 18
@@ -4901,7 +4893,7 @@ if BF then
 		end)
 	end)
 	
-	local Main = library:Window("flow.cheats | by: readdone313","Blox Fruit 2.0")
+	local Main = library:Window("flow.cheats","Blox Fruit 3.1.3")
 	local AutoFarmTab = Main:Tab("Auto Farm")
 	local MainAutoFarmFunction = AutoFarm(Ms,NameQuest,LevelQuest,NameMon,CFrameMon,CFrameQuest,"AutoFarmLevel")
 	spawn(function()
