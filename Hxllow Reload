@@ -4894,7 +4894,7 @@ if BF then
 		end)
 	end)
 	
-	local Main = library:Window("flow.cheats","Blox Fruit 3.1.3")
+	local Main = library:Window("flow.cheats","деангус соси яйца")
 	local AutoFarmTab = Main:Tab("Auto Farm")
 	local MainAutoFarmFunction = AutoFarm(Ms,NameQuest,LevelQuest,NameMon,CFrameMon,CFrameQuest,"AutoFarmLevel")
 	spawn(function()
